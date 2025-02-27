@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Filter</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <h1><u><b>Images Gallery</b></u></h1>
+    <div class="filters">
+        <button onclick="filterImages('all')">All</button>
+        <button onclick="filterImages('TEMPLE')">TEMPLE</button>
+        <button onclick="filterImages('FORTS')">FORTS</button>
+        <button onclick="filterImages('taj')">Taj Mahal</button>
+        <button onclick="filterImages('MOSQUE')">MOSQUE</button>
+    </div>
+    <div class="gallery">
+        <img src="T1.jpg" class="TEMPLE">
+        <img src="F1.png" class="FORTS">
+        <img src="1.png" class="taj">
+        <img src="M2.png" class="MOSQUE">
+        <img src="T2.png" class="TEMPLE">
+        <img src="F2.png" class="FORTS">
+    </div>
+    <script src="gallery.js"></script>
+</body>
+</html>
